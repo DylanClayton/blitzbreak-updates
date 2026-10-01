@@ -3,6 +3,14 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.3.2
+
+- Music: a track for the menu and lobby, another for matches, and a short fanfare when a match is won or lost. Set its volume with the new Music slider in Settings. — [@DylanClayton](https://github.com/DylanClayton)
+- Combat sounds: a tick when your hit lands and a ping for a kill, a crack when your shield breaks and a hum as it recharges, a heartbeat when you're in danger, plus jump and respawn sounds. — [@DylanClayton](https://github.com/DylanClayton)
+- A new announcer voice. — [@DylanClayton](https://github.com/DylanClayton)
+- The announcer is easier to hear over the action, the game goes muffled behind the pause menu, and on computers it mutes while in the background (you can turn that off in Settings). — [@DylanClayton](https://github.com/DylanClayton)
+- "More details" in the update notice opens the full changelog in your browser. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.3.1
 
 - The main menu title fits on narrow phone screens instead of hiding behind the Play panel. — [@DylanClayton](https://github.com/DylanClayton)
