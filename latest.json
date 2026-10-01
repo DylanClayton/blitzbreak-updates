@@ -1,0 +1,18 @@
+{
+  "stable": {
+    "version": "0.2.0",
+    "notes": [
+      "iPhone and iPad (via TestFlight) and Android, with touch controls.",
+      "Better controller support: finer aiming, and on-screen prompts match what you're using.",
+      "The Mac version is signed and checked by Apple, so it opens without a security warning."
+    ]
+  },
+  "beta": {
+    "version": "0.2.0",
+    "notes": [
+      "iPhone and iPad (via TestFlight) and Android, with touch controls.",
+      "Better controller support: finer aiming, and on-screen prompts match what you're using.",
+      "The Mac version is signed and checked by Apple, so it opens without a security warning."
+    ]
+  }
+}
