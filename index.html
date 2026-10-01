@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blitzbreak · What's new</title>
+<meta name="description" content="What changed in each Blitzbreak release.">
+<link rel="icon" href="icon.png">
+<style>
+  /* The game's menu colors (scripts/ui/ui_theme.gd). */
+  :root {
+    --bg: #0d0f14;
+    --panel: #12141a;
+    --line: #23262e;
+    --text: #eff2f7;
+    --muted: #a6adbd;
+    --accent: #ff9e26;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 80px; }
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
+  header img { width: 56px; height: 56px; border-radius: 12px; }
+  h1 { margin: 0; font-size: clamp(24px, 6vw, 34px); letter-spacing: 0.5px; }
+  h1 span { color: var(--accent); }
+  .intro { color: var(--muted); margin: 12px 0 28px; }
+  .latest { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 36px; }
+  .badge {
+    border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px;
+    font-size: 14px; color: var(--muted); text-decoration: none;
+  }
+  .badge b { color: var(--text); font-weight: 600; }
+  section {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+    padding: 20px clamp(16px, 4vw, 24px); margin-bottom: 16px; scroll-margin-top: 16px;
+  }
+  section:target { border-color: var(--accent); }
+  h2 { margin: 0 0 8px; font-size: 22px; display: flex; align-items: baseline; gap: 10px; }
+  h2 a { color: inherit; text-decoration: none; }
+  h2 a:hover::after { content: " #"; color: var(--muted); }
+  .tag { font-size: 13px; font-weight: 600; color: var(--bg); background: var(--accent); border-radius: 4px; padding: 1px 7px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin: 8px 0; }
+  li::marker { color: var(--accent); }
+  .credit { color: var(--muted); }
+  .credit a { color: var(--muted); }
+  a { color: var(--accent); }
+  .note { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <h1>BLITZ<span>BREAK</span> · What's new</h1>
+  </header>
+  <p class="intro" id="intro"></p>
+  <div class="latest" id="latest"></div>
+  <div id="releases"><p class="note">Loading…</p></div>
+</main>
+<script>
+// Renders CHANGELOG.md and latest.json, which the release workflow publishes
+// next to this page. Each release gets an anchor (#v0.3.1) the game links to.
+const esc = (s) => s.replace(/[&<>"]/g, (c) => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+const inline = (s) => esc(s).replace(/\[([^\]]+)\]\((https:\/\/[^)\s]+)\)/g, '<a href="$2">$1</a>');
+
+function render(markdown, latest) {
+  const [intro, ...blocks] = markdown.split(/^## /m);
+  document.getElementById("intro").innerHTML =
+    inline(intro.replace(/^# .*$/m, "").replace(/<!--[\s\S]*?-->/g, "").trim().replace(/\s+/g, " "));
+  const newest = {};
+  for (const channel of ["stable", "beta"]) {
+    const v = latest[channel] && latest[channel].version;
+    if (v) newest[v.split("-")[0]] = newest[v.split("-")[0]] || channel;
+  }
+  document.getElementById("latest").innerHTML = ["stable", "beta"]
+    .filter((c) => latest[c] && (c === "stable" || latest[c].version !== latest.stable.version))
+    .map((c) => `<a class="badge" href="#v${esc(latest[c].version.split("-")[0])}">Latest ${c === "stable" ? "release" : "beta"} <b>${esc(latest[c].version)}</b></a>`)
+    .join("");
+  document.getElementById("releases").innerHTML = blocks.map((block) => {
+    const [heading, ...lines] = block.split("\n");
+    const version = heading.trim();
+    const items = [];
+    for (const line of lines) {
+      if (line.startsWith("- ")) items.push(line.slice(2));
+      else if (line.startsWith("  ") && items.length) items[items.length - 1] += " " + line.trim();
+    }
+    const tag = newest[version] === "stable" ? '<span class="tag">LATEST</span>' : "";
+    return `<section id="v${esc(version)}"><h2><a href="#v${esc(version)}">${esc(version)}</a>${tag}</h2><ul>` +
+      items.map((item) => {
+        const [text, by] = item.split(" — ");
+        return `<li>${inline(text)}${by ? ` <span class="credit">— ${inline(by)}</span>` : ""}</li>`;
+      }).join("") + "</ul></section>";
+  }).join("");
+  if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
+}
+
+Promise.all([
+  fetch("CHANGELOG.md", {cache: "no-cache"}).then((r) => r.text()),
+  fetch("latest.json", {cache: "no-cache"}).then((r) => r.json()).catch(() => ({})),
+]).then(([markdown, latest]) => render(markdown, latest))
+  .catch(() => { document.getElementById("releases").innerHTML = '<p class="note">Couldn\'t load the changelog.</p>'; });
+</script>
+</body>
+</html>
