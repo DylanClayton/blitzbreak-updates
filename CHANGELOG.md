@@ -3,6 +3,11 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.3.3
+
+- New look: everyone is now a Toy Brawler, a chunky robot with a helmet, glowing eyes behind the visor and your team's colors, animated as it runs, jumps, swings and carries the bomb. Bots show off the different helmets, eye styles and body types. — [@DylanClayton](https://github.com/DylanClayton)
+- New weapons: three G-Hammers (Maul, Gravity Core, Warhammer) and three E-Swords (Blade, Curved, Cleaver), glowing in your accent color. They only change how weapons look, not how they hit. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.3.2
 
 - Music: a track for the menu and lobby, another for matches, and a short fanfare when a match is won or lost. Set its volume with the new Music slider in Settings. — [@DylanClayton](https://github.com/DylanClayton)
