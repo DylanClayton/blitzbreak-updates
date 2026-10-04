@@ -1,16 +1,26 @@
 {
   "stable": {
-    "version": "0.3.3",
+    "version": "0.4.0",
     "notes": [
-      "New look: everyone is now a Toy Brawler, a chunky robot with a helmet, glowing eyes behind the visor and your team's colors, animated as it runs, jumps, swings and carries the bomb. Bots show off the different helmets, eye styles and body types.",
-      "New weapons: three G-Hammers (Maul, Gravity Core, Warhammer) and three E-Swords (Blade, Curved, Cleaver), glowing in your accent color. They only change how weapons look, not how they hit."
+      "Customize your brawler: pick a body (Standard, Big or Huge), helmet, eyes, G-Hammer and E-Sword, and drag the preview to turn it. Your look now shows in online games, and looks added in later updates show up as the closest default for anyone who hasn't updated yet.",
+      "Rejoin your seat: if you drop out of an online match, a bot keeps your seat warm for 60 seconds. Reconnect with the Rejoin button and you're back in, with your score.",
+      "Host controls in the lobby: the host can kick players or hand hosting to someone else, and everyone can mark themselves Ready.",
+      "More match settings: a round time limit (when it runs out, nobody scores and the next round starts), the respawn time, and hammers-only or swords-only matches.",
+      "In first person you now see your brawler's arm holding your weapon, and both hands around the bomb, with a fuller overhead swing.",
+      "Menus, the lobby and the pause menu stay clear of the camera cut-out on phones.",
+      "Fixes for error messages when quitting the game."
     ]
   },
   "beta": {
-    "version": "0.3.3",
+    "version": "0.4.0",
     "notes": [
-      "New look: everyone is now a Toy Brawler, a chunky robot with a helmet, glowing eyes behind the visor and your team's colors, animated as it runs, jumps, swings and carries the bomb. Bots show off the different helmets, eye styles and body types.",
-      "New weapons: three G-Hammers (Maul, Gravity Core, Warhammer) and three E-Swords (Blade, Curved, Cleaver), glowing in your accent color. They only change how weapons look, not how they hit."
+      "Customize your brawler: pick a body (Standard, Big or Huge), helmet, eyes, G-Hammer and E-Sword, and drag the preview to turn it. Your look now shows in online games, and looks added in later updates show up as the closest default for anyone who hasn't updated yet.",
+      "Rejoin your seat: if you drop out of an online match, a bot keeps your seat warm for 60 seconds. Reconnect with the Rejoin button and you're back in, with your score.",
+      "Host controls in the lobby: the host can kick players or hand hosting to someone else, and everyone can mark themselves Ready.",
+      "More match settings: a round time limit (when it runs out, nobody scores and the next round starts), the respawn time, and hammers-only or swords-only matches.",
+      "In first person you now see your brawler's arm holding your weapon, and both hands around the bomb, with a fuller overhead swing.",
+      "Menus, the lobby and the pause menu stay clear of the camera cut-out on phones.",
+      "Fixes for error messages when quitting the game."
     ]
   }
 }

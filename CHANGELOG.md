@@ -3,6 +3,16 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.4.0
+
+- Customize your brawler: pick a body (Standard, Big or Huge), helmet, eyes, G-Hammer and E-Sword, and drag the preview to turn it. Your look now shows in online games, and looks added in later updates show up as the closest default for anyone who hasn't updated yet. — [@DylanClayton](https://github.com/DylanClayton)
+- Rejoin your seat: if you drop out of an online match, a bot keeps your seat warm for 60 seconds. Reconnect with the Rejoin button and you're back in, with your score. — [@DylanClayton](https://github.com/DylanClayton)
+- Host controls in the lobby: the host can kick players or hand hosting to someone else, and everyone can mark themselves Ready. — [@DylanClayton](https://github.com/DylanClayton)
+- More match settings: a round time limit (when it runs out, nobody scores and the next round starts), the respawn time, and hammers-only or swords-only matches. — [@DylanClayton](https://github.com/DylanClayton)
+- In first person you now see your brawler's arm holding your weapon, and both hands around the bomb, with a fuller overhead swing. — [@DylanClayton](https://github.com/DylanClayton)
+- Menus, the lobby and the pause menu stay clear of the camera cut-out on phones. — [@DylanClayton](https://github.com/DylanClayton)
+- Fixes for error messages when quitting the game. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.3.3
 
 - New look: everyone is now a Toy Brawler, a chunky robot with a helmet, glowing eyes behind the visor and your team's colors, animated as it runs, jumps, swings and carries the bomb. Bots show off the different helmets, eye styles and body types. — [@DylanClayton](https://github.com/DylanClayton)
