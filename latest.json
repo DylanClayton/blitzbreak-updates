@@ -1,18 +1,14 @@
 {
   "stable": {
-    "version": "0.4.1",
+    "version": "0.4.2",
     "notes": [
-      "Online, red players start each round facing down the court instead of at their own wall, and everyone faces the right way after respawning.",
-      "In first person, weapons face forward: the Warhammer strikes with its big face, and the Curved E-Sword's tip curves the right way.",
-      "Lobby settings keep their arrows in place: long names scroll inside the row instead of stretching it, and the settings list keeps its scroll position as things change."
+      "A new announcer voice: deeper and punchier, cutting through the action."
     ]
   },
   "beta": {
-    "version": "0.4.1",
+    "version": "0.4.2",
     "notes": [
-      "Online, red players start each round facing down the court instead of at their own wall, and everyone faces the right way after respawning.",
-      "In first person, weapons face forward: the Warhammer strikes with its big face, and the Curved E-Sword's tip curves the right way.",
-      "Lobby settings keep their arrows in place: long names scroll inside the row instead of stretching it, and the settings list keeps its scroll position as things change."
+      "A new announcer voice: deeper and punchier, cutting through the action."
     ]
   }
 }

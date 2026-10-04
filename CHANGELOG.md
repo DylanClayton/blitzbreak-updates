@@ -3,6 +3,10 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.4.2
+
+- A new announcer voice: deeper and punchier, cutting through the action. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.4.1
 
 - Online, red players start each round facing down the court instead of at their own wall, and everyone faces the right way after respawning. — [@DylanClayton](https://github.com/DylanClayton)
