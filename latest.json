@@ -1,26 +1,18 @@
 {
   "stable": {
-    "version": "0.4.0",
+    "version": "0.4.1",
     "notes": [
-      "Customize your brawler: pick a body (Standard, Big or Huge), helmet, eyes, G-Hammer and E-Sword, and drag the preview to turn it. Your look now shows in online games, and looks added in later updates show up as the closest default for anyone who hasn't updated yet.",
-      "Rejoin your seat: if you drop out of an online match, a bot keeps your seat warm for 60 seconds. Reconnect with the Rejoin button and you're back in, with your score.",
-      "Host controls in the lobby: the host can kick players or hand hosting to someone else, and everyone can mark themselves Ready.",
-      "More match settings: a round time limit (when it runs out, nobody scores and the next round starts), the respawn time, and hammers-only or swords-only matches.",
-      "In first person you now see your brawler's arm holding your weapon, and both hands around the bomb, with a fuller overhead swing.",
-      "Menus, the lobby and the pause menu stay clear of the camera cut-out on phones.",
-      "Fixes for error messages when quitting the game."
+      "Online, red players start each round facing down the court instead of at their own wall, and everyone faces the right way after respawning.",
+      "In first person, weapons face forward: the Warhammer strikes with its big face, and the Curved E-Sword's tip curves the right way.",
+      "Lobby settings keep their arrows in place: long names scroll inside the row instead of stretching it, and the settings list keeps its scroll position as things change."
     ]
   },
   "beta": {
-    "version": "0.4.0",
+    "version": "0.4.1",
     "notes": [
-      "Customize your brawler: pick a body (Standard, Big or Huge), helmet, eyes, G-Hammer and E-Sword, and drag the preview to turn it. Your look now shows in online games, and looks added in later updates show up as the closest default for anyone who hasn't updated yet.",
-      "Rejoin your seat: if you drop out of an online match, a bot keeps your seat warm for 60 seconds. Reconnect with the Rejoin button and you're back in, with your score.",
-      "Host controls in the lobby: the host can kick players or hand hosting to someone else, and everyone can mark themselves Ready.",
-      "More match settings: a round time limit (when it runs out, nobody scores and the next round starts), the respawn time, and hammers-only or swords-only matches.",
-      "In first person you now see your brawler's arm holding your weapon, and both hands around the bomb, with a fuller overhead swing.",
-      "Menus, the lobby and the pause menu stay clear of the camera cut-out on phones.",
-      "Fixes for error messages when quitting the game."
+      "Online, red players start each round facing down the court instead of at their own wall, and everyone faces the right way after respawning.",
+      "In first person, weapons face forward: the Warhammer strikes with its big face, and the Curved E-Sword's tip curves the right way.",
+      "Lobby settings keep their arrows in place: long names scroll inside the row instead of stretching it, and the settings list keeps its scroll position as things change."
     ]
   }
 }

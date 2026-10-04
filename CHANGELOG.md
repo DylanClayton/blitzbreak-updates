@@ -3,6 +3,12 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.4.1
+
+- Online, red players start each round facing down the court instead of at their own wall, and everyone faces the right way after respawning. — [@DylanClayton](https://github.com/DylanClayton)
+- In first person, weapons face forward: the Warhammer strikes with its big face, and the Curved E-Sword's tip curves the right way. — [@DylanClayton](https://github.com/DylanClayton)
+- Lobby settings keep their arrows in place: long names scroll inside the row instead of stretching it, and the settings list keeps its scroll position as things change. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.4.0
 
 - Customize your brawler: pick a body (Standard, Big or Huge), helmet, eyes, G-Hammer and E-Sword, and drag the preview to turn it. Your look now shows in online games, and looks added in later updates show up as the closest default for anyone who hasn't updated yet. — [@DylanClayton](https://github.com/DylanClayton)
