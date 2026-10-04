@@ -3,6 +3,10 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.5.0
+
+- Court themes: every court now comes in eight looks: Pro Arena, Neon Night, Rooftop Sunset, Junkyard, Frozen Rink, Woodland Road, Outer Space and Hell. The host picks one in the lobby, or Random for a different look every match. Themes only change the scenery, never how a court plays. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.4.2
 
 - A new announcer voice: deeper and punchier, cutting through the action. — [@DylanClayton](https://github.com/DylanClayton)

@@ -1,14 +1,14 @@
 {
   "stable": {
-    "version": "0.4.2",
+    "version": "0.5.0",
     "notes": [
-      "A new announcer voice: deeper and punchier, cutting through the action."
+      "Court themes: every court now comes in eight looks: Pro Arena, Neon Night, Rooftop Sunset, Junkyard, Frozen Rink, Woodland Road, Outer Space and Hell. The host picks one in the lobby, or Random for a different look every match. Themes only change the scenery, never how a court plays."
     ]
   },
   "beta": {
-    "version": "0.4.2",
+    "version": "0.5.0",
     "notes": [
-      "A new announcer voice: deeper and punchier, cutting through the action."
+      "Court themes: every court now comes in eight looks: Pro Arena, Neon Night, Rooftop Sunset, Junkyard, Frozen Rink, Woodland Road, Outer Space and Hell. The host picks one in the lobby, or Random for a different look every match. Themes only change the scenery, never how a court plays."
     ]
   }
 }
