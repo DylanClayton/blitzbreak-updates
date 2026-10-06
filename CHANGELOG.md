@@ -3,6 +3,13 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.6.0
+
+- New court pieces: ramps up to raised decks, jump pads (green ones throw you forward, cyan ones straight up and higher still if you land on them from a jump), moving walkways, floating platforms and elevators that carry you (and crush you against the floor or a wall), and spike pits. Knock someone into a pit and the kill is yours. The bomb rides, bounces and resets too. — [@DylanClayton](https://github.com/DylanClayton)
+- A new court, Playground, with every new piece to try. — [@DylanClayton](https://github.com/DylanClayton)
+- Jump pad guides: show where forward pads throw you, in Settings > Video (off by default). — [@DylanClayton](https://github.com/DylanClayton)
+- Servers now send their court to everyone who joins, so new courts no longer need an update to play, and hosts will be able to share courts they make. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.5.0
 
 - Court themes: every court now comes in eight looks: Pro Arena, Neon Night, Rooftop Sunset, Junkyard, Frozen Rink, Woodland Road, Outer Space and Hell. The host picks one in the lobby, or Random for a different look every match. Themes only change the scenery, never how a court plays. — [@DylanClayton](https://github.com/DylanClayton)
