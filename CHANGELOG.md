@@ -3,6 +3,10 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.6.2
+
+- New eyes for your robot: Hearts. Find them in Customize > Eyes. Players still on 0.6.1 see your usual eyes until they update. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.6.1
 
 - Course builder (on computers): Main menu > Course Builder. Lay out your own court on a top-down plan: drag the walls, goals and spawn zones, place blocks, ramps, pads, walkways, platforms and spike pits, and tune their numbers. Mirror keeps both ends fair, pieces snap to the grid and can't be placed anywhere that would break a match, and a 3D preview shows it in any theme. Test it against bots in one click, then save it. — [@DylanClayton](https://github.com/DylanClayton)

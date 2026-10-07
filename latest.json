@@ -1,18 +1,14 @@
 {
   "stable": {
-    "version": "0.6.1",
+    "version": "0.6.2",
     "notes": [
-      "Course builder (on computers): Main menu > Course Builder. Lay out your own court on a top-down plan: drag the walls, goals and spawn zones, place blocks, ramps, pads, walkways, platforms and spike pits, and tune their numbers. Mirror keeps both ends fair, pieces snap to the grid and can't be placed anywhere that would break a match, and a 3D preview shows it in any theme. Test it against bots in one click, then save it.",
-      "Your saved courts appear in Play vs Bots and Host Game, marked \"(yours)\"; players who join your game get the court automatically.",
-      "The Playground's sliding platform no longer passes over the bomb's starting spot."
+      "New eyes for your robot: Hearts. Find them in Customize > Eyes. Players still on 0.6.1 see your usual eyes until they update."
     ]
   },
   "beta": {
-    "version": "0.6.1",
+    "version": "0.6.2",
     "notes": [
-      "Course builder (on computers): Main menu > Course Builder. Lay out your own court on a top-down plan: drag the walls, goals and spawn zones, place blocks, ramps, pads, walkways, platforms and spike pits, and tune their numbers. Mirror keeps both ends fair, pieces snap to the grid and can't be placed anywhere that would break a match, and a 3D preview shows it in any theme. Test it against bots in one click, then save it.",
-      "Your saved courts appear in Play vs Bots and Host Game, marked \"(yours)\"; players who join your game get the court automatically.",
-      "The Playground's sliding platform no longer passes over the bomb's starting spot."
+      "New eyes for your robot: Hearts. Find them in Customize > Eyes. Players still on 0.6.1 see your usual eyes until they update."
     ]
   }
 }
