@@ -1,14 +1,30 @@
 {
   "stable": {
-    "version": "0.6.2",
+    "version": "0.7.0",
     "notes": [
-      "New eyes for your robot: Hearts. Find them in Customize > Eyes. Players still on 0.6.1 see your usual eyes until they update."
+      "Play Online. Casual drops you into a game with people in it, with bots in the empty seats, and anyone can take a bot's seat at any time; if there's no game, it waits up to a minute for others, then starts one with bots. Competitive searches for a full 4v4 match.",
+      "Left an online match that's still going? Rejoin match on the Play page takes you back to your seat. A competitive match can't be swapped for another game: rejoin it, or wait until it's over.",
+      "iPhone and iPad sign in with Game Center, so your online account comes with you to a new device. Settings > Delete online account removes it.",
+      "When playing online needs a newer version of Blitzbreak, the game says so.",
+      "Bots have names, like \"Sprocket (Bot)\".",
+      "E-Sword: the crosshair turns into a red target when a swing would lunge.",
+      "After an online match, the final scoreboard counts down 25 seconds before heading back by itself. When the player hosting from their computer leaves, everyone is told the host ended the game.",
+      "Hosting shows how to let Blitzbreak through your computer's firewall.",
+      "Fixed players being frozen in place at the start of the next match, and the game freezing when you leave a lobby you're hosting."
     ]
   },
   "beta": {
-    "version": "0.6.2",
+    "version": "0.7.0",
     "notes": [
-      "New eyes for your robot: Hearts. Find them in Customize > Eyes. Players still on 0.6.1 see your usual eyes until they update."
+      "Play Online. Casual drops you into a game with people in it, with bots in the empty seats, and anyone can take a bot's seat at any time; if there's no game, it waits up to a minute for others, then starts one with bots. Competitive searches for a full 4v4 match.",
+      "Left an online match that's still going? Rejoin match on the Play page takes you back to your seat. A competitive match can't be swapped for another game: rejoin it, or wait until it's over.",
+      "iPhone and iPad sign in with Game Center, so your online account comes with you to a new device. Settings > Delete online account removes it.",
+      "When playing online needs a newer version of Blitzbreak, the game says so.",
+      "Bots have names, like \"Sprocket (Bot)\".",
+      "E-Sword: the crosshair turns into a red target when a swing would lunge.",
+      "After an online match, the final scoreboard counts down 25 seconds before heading back by itself. When the player hosting from their computer leaves, everyone is told the host ended the game.",
+      "Hosting shows how to let Blitzbreak through your computer's firewall.",
+      "Fixed players being frozen in place at the start of the next match, and the game freezing when you leave a lobby you're hosting."
     ]
   }
 }

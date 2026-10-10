@@ -3,6 +3,18 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.7.0
+
+- Play Online. Casual drops you into a game with people in it, with bots in the empty seats, and anyone can take a bot's seat at any time; if there's no game, it waits up to a minute for others, then starts one with bots. Competitive searches for a full 4v4 match. — [@DylanClayton](https://github.com/DylanClayton)
+- Left an online match that's still going? Rejoin match on the Play page takes you back to your seat. A competitive match can't be swapped for another game: rejoin it, or wait until it's over. — [@DylanClayton](https://github.com/DylanClayton)
+- iPhone and iPad sign in with Game Center, so your online account comes with you to a new device. Settings > Delete online account removes it. — [@DylanClayton](https://github.com/DylanClayton)
+- When playing online needs a newer version of Blitzbreak, the game says so. — [@DylanClayton](https://github.com/DylanClayton)
+- Bots have names, like "Sprocket (Bot)". — [@DylanClayton](https://github.com/DylanClayton)
+- E-Sword: the crosshair turns into a red target when a swing would lunge. — [@DylanClayton](https://github.com/DylanClayton)
+- After an online match, the final scoreboard counts down 25 seconds before heading back by itself. When the player hosting from their computer leaves, everyone is told the host ended the game. — [@DylanClayton](https://github.com/DylanClayton)
+- Hosting shows how to let Blitzbreak through your computer's firewall. — [@DylanClayton](https://github.com/DylanClayton)
+- Fixed players being frozen in place at the start of the next match, and the game freezing when you leave a lobby you're hosting. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.6.2
 
 - New eyes for your robot: Hearts. Find them in Customize > Eyes. Players still on 0.6.1 see your usual eyes until they update. — [@DylanClayton](https://github.com/DylanClayton)
