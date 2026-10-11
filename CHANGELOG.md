@@ -3,6 +3,21 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.7.1
+
+- Comic Court: courts, robots and weapons are drawn like a comic book, with flat colors and ink outlines. Your team's color looks the same on every court, and night courts glow instead of going dark. — [@DylanClayton](https://github.com/DylanClayton)
+- New effects to match: hammer slams, sword clashes and bomb blasts are bold comic-style bursts instead of glowing domes. — [@DylanClayton](https://github.com/DylanClayton)
+- Pick your Hammer slam and Bomb blast in Customize. Slams: Shock Wall, Ground Star, Cracks & Rubble, Sound Effect or Speed Lines. Blasts: Classic, Mushroom Cloud, KA-BOOM!, Confetti, Fireworks or Ink Bomb, in the scoring team's color. Picking one shows it off. — [@DylanClayton](https://github.com/DylanClayton)
+- A new main menu: the menu sits in the middle, and each page opens in its place with a Back button. Customize shows your robot on one side and your picks on the other. — [@DylanClayton](https://github.com/DylanClayton)
+- A new HUD and menus: dark comic panels with ink lines, team score plates at the top, the kill feed in caption boxes, and a crosshair you can see on any court. — [@DylanClayton](https://github.com/DylanClayton)
+- Fallen robots get thrown again by hammer hits and bomb blasts, and stop rolling once they land. — [@DylanClayton](https://github.com/DylanClayton)
+- In first person, you hold the bomb in both hands in front of you. — [@DylanClayton](https://github.com/DylanClayton)
+- Ramps no longer show stripes and dark patches of shadow. — [@DylanClayton](https://github.com/DylanClayton)
+- New settings: Max frame rate (60 to start with) and Anti-aliasing. Menus run at 60 frames a second at most and the game slows right down while it's in the background, so computers run cooler and quieter. Show FPS shows your frame rate. — [@DylanClayton](https://github.com/DylanClayton)
+- Phones: the game runs faster, with a 3D resolution setting to trade sharpness for speed, and settings lists scroll, with sliders that work, in the menu and during a match. — [@DylanClayton](https://github.com/DylanClayton)
+- Fixed a switched-on setting sometimes losing its orange highlight. — [@DylanClayton](https://github.com/DylanClayton)
+- What's new opens playblitzbreak.com. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.7.0
 
 - Play Online. Casual drops you into a game with people in it, with bots in the empty seats, and anyone can take a bot's seat at any time; if there's no game, it waits up to a minute for others, then starts one with bots. Competitive searches for a full 4v4 match. — [@DylanClayton](https://github.com/DylanClayton)
