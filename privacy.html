@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blitzbreak · Privacy</title>
+<meta name="description" content="What Blitzbreak collects, why, and how to delete it.">
+<link rel="icon" href="icon.png">
+<style>
+  /* The site's colors (index.html). */
+  :root {
+    --bg: #0d0f14;
+    --panel: #12141a;
+    --line: #23262e;
+    --text: #eff2f7;
+    --muted: #a6adbd;
+    --accent: #ff9e26;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 80px; }
+  header { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
+  header img { width: 56px; height: 56px; border-radius: 12px; }
+  h1 { margin: 0; font-size: clamp(24px, 6vw, 34px); letter-spacing: 0.5px; }
+  h1 span { color: var(--accent); }
+  .intro { color: var(--muted); margin: 12px 0 28px; }
+  section {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+    padding: 20px clamp(16px, 4vw, 24px); margin-bottom: 16px; scroll-margin-top: 16px;
+  }
+  section:target { border-color: var(--accent); }
+  h2 { margin: 0 0 8px; font-size: 22px; }
+  h3 { margin: 18px 0 4px; font-size: 17px; }
+  p { margin: 8px 0; }
+  ul { margin: 8px 0; padding-left: 20px; }
+  li { margin: 6px 0; }
+  li::marker { color: var(--accent); }
+  a { color: var(--accent); }
+  .table-wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; margin: 8px 0; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-top: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  .note { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <a href="./"><img src="icon.png" alt="Blitzbreak"></a>
+    <h1>BLITZ<span>BREAK</span> · Privacy</h1>
+  </header>
+  <p class="intro">Last updated October 11, 2026. This covers the Blitzbreak game on every platform, its
+    online services and this website. In short: you can play offline without sending us anything;
+    playing online creates an anonymous account with the name you choose; we don't run ads, sell
+    data, or track you across other apps and sites.</p>
+
+  <section id="who">
+    <h2>Who we are</h2>
+    <p>Blitzbreak is made by Dylan Clayton ("we", "us"). For anything about your data, email
+      <a href="mailto:support@playblitzbreak.com">support@playblitzbreak.com</a>.</p>
+  </section>
+
+  <section id="offline">
+    <h2>Playing offline</h2>
+    <p>Matches against bots, the course builder and your settings stay on your device. Your look,
+      name, settings and any courts you build are saved there and never sent to us.</p>
+    <p>When the main menu opens, the game checks a small file on GitHub to see whether a newer
+      version is out. That request carries nothing about you, but like any web request GitHub
+      receives your IP address (see <a href="#others">who else is involved</a>).</p>
+  </section>
+
+  <section id="online">
+    <h2>Playing online</h2>
+    <p>The first time you play online, the game creates an account for you on our server. There's
+      no email address or password: the account is tied to your device.</p>
+    <h3>What the account holds</h3>
+    <ul>
+      <li><b>A device ID:</b> a random number the game makes up and saves on your device. It isn't
+        your phone's or computer's hardware ID.</li>
+      <li><b>Game Center (iPhone and iPad):</b> if you're signed in to Game Center, your Game
+        Center player ID for Blitzbreak, so your account follows you to a new device. Apple
+        verifies it; we never see your Apple ID or email.</li>
+      <li><b>Your display name:</b> the name you pick in Customize. Other players see it in the
+        lobby, on the scoreboard and in the kill feed, so don't use your real name if you'd
+        rather not.</li>
+      <li><b>Your stats:</b> games played, wins, kills, deaths and goals.</li>
+      <li><b>Match records:</b> for each online match, its result and who played in it (by account
+        ID, not name), with each player's team, kills, deaths and goals.</li>
+    </ul>
+    <h3>What else we see</h3>
+    <ul>
+      <li><b>Your IP address</b>, when the game talks to our server or a match server. We keep it
+        in memory for up to an hour to start match servers close to the players, and don't store
+        it in our database.</li>
+      <li><b>Your look and game version</b>, which match servers need to draw you and check you're
+        compatible.</li>
+    </ul>
+    <p>We use all of this only to run online play: signing you in, finding you a match, starting a
+      server near you, putting you back in a match you left, and keeping your stats.</p>
+    <h3>Playing with friends</h3>
+    <p>When someone hosts a private game on their own computer, the players who join connect
+      straight to that computer, so the host's computer sees their IP addresses. If the host's
+      router can't share its address automatically, the game asks
+      <a href="https://www.ipify.org/">ipify</a> for the host's public IP address so they can share
+      it.</p>
+  </section>
+
+  <section id="not">
+    <h2>What we don't do</h2>
+    <ul>
+      <li>No ads, and no advertising or analytics trackers.</li>
+      <li>No selling or renting of your data, and no sharing it for advertising.</li>
+      <li>No tracking you across other apps or websites.</li>
+      <li>No access to your contacts, photos, location, microphone or camera.</li>
+      <li>No text or voice chat.</li>
+      <li>No purchases in the game today. If that changes, this page will say what's involved
+        first.</li>
+    </ul>
+  </section>
+
+  <section id="others">
+    <h2>Who else is involved</h2>
+    <p>A few companies run the services Blitzbreak relies on. They handle data only to provide
+      those services:</p>
+    <div class="table-wrap">
+      <table>
+        <tr><th>Company</th><th>What it does</th><th>What it receives</th></tr>
+        <tr><td>DigitalOcean</td><td>Hosts our server (New York, USA)</td><td>Everything in your
+          online account, stored on our server</td></tr>
+        <tr><td>Edgegap</td><td>Runs the match servers, near the players</td><td>Players' IP
+          addresses, to pick a location; account IDs, display names and teams for the match;
+          the match's results</td></tr>
+        <tr><td>Apple</td><td>Game Center sign-in on iPhone and iPad</td><td>Handled under
+          <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a></td></tr>
+        <tr><td>GitHub</td><td>Hosts this website and the "new version" check</td><td>Your IP
+          address, as with any website</td></tr>
+        <tr><td>ipify</td><td>Finds a host's public IP address for private games</td><td>The
+          host's IP address</td></tr>
+      </table>
+    </div>
+    <p>The stores you download Blitzbreak from (the App Store, Google Play, Steam, Epic) have their
+      own privacy policies for their accounts and downloads.</p>
+    <p>Our account server is in the United States, so if you play from elsewhere your account is
+      stored there. Match servers run in whichever region is closest to the players in the match.</p>
+  </section>
+
+  <section id="keep">
+    <h2>How long we keep it</h2>
+    <ul>
+      <li>Your account and stats: until you delete them.</li>
+      <li>IP addresses: up to an hour, in memory.</li>
+      <li>The details needed to rejoin a match you left: until the match ends.</li>
+      <li>Server logs: kept for a limited time, then overwritten. They can include display names,
+        account IDs and match results, and are only used to fix problems.</li>
+      <li>Backups of our database: 14 days.</li>
+      <li>Match records: kept, with account IDs, to keep match history accurate. Once your account
+        is deleted, the ID left in them no longer leads to you.</li>
+    </ul>
+  </section>
+
+  <section id="delete">
+    <h2>Deleting your data</h2>
+    <p>In the game, open <b>Settings &gt; Delete online account</b>. That deletes your account,
+      name, Game Center link and stats from our server straight away, and clears the online
+      details saved on your device. Copies in our backups are gone within 14 days.</p>
+    <p>Lost access to your device? Email us with your display name and roughly when you last
+      played, and we'll find and delete the account.</p>
+    <p>Everything saved only on your device (settings, look, courts) goes when you uninstall the
+      game.</p>
+  </section>
+
+  <section id="rights">
+    <h2>Your rights</h2>
+    <p>Wherever you live, you can ask us what we hold about you, to correct it, to delete it, or
+      for a copy. Email us and we'll answer within 30 days. Depending on where you live (for
+      example the EU, the UK or California), these are also legal rights, and you can complain to
+      your local data protection authority.</p>
+    <p>Where the law asks for a reason to use your data: we use it to provide the online play you
+      asked for, and to keep the game working and fair.</p>
+  </section>
+
+  <section id="children">
+    <h2>Children</h2>
+    <p>Blitzbreak isn't directed at children under 13, and we don't knowingly collect data from
+      them. The only things a player shares are a display name they choose and their match
+      stats. If you think a child under 13 has an online account, email us and we'll delete it.</p>
+  </section>
+
+  <section id="changes">
+    <h2>Changes</h2>
+    <p>When this policy changes, we'll update it here and change the date at the top. If a change
+      matters (say, purchases or a new kind of data), we'll also say so in the game's What's new
+      notes.</p>
+  </section>
+</main>
+</body>
+</html>
