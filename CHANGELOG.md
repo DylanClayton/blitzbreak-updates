@@ -3,6 +3,18 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.7.2
+
+- A new Blitzbreak logo on the title screen. — [@DylanClayton](https://github.com/DylanClayton)
+- Play vs Bots: the teams are on the left and the match settings on the right, each scrolling on its own, and a list fades out with "MORE" at the bottom when there's more to see. Customize shows it too. — [@DylanClayton](https://github.com/DylanClayton)
+- Customize: your robot stands on a floor against a lighter sky, so Cracks & Rubble and the Ink Bomb are easy to see. — [@DylanClayton](https://github.com/DylanClayton)
+- The team scores at the top no longer go blank after joining a match that's already going. — [@DylanClayton](https://github.com/DylanClayton)
+- Casual search: no more bots countdown, which jumped around. The clock counts up, and if nobody's around a game with bots still starts within a minute. — [@DylanClayton](https://github.com/DylanClayton)
+- iPhone and iPad: game sound plays with the silent switch on (the volume buttons still work), and music from other apps keeps playing. — [@DylanClayton](https://github.com/DylanClayton)
+- The FPS counter stays clear of a phone's rounded corners and notch. — [@DylanClayton](https://github.com/DylanClayton)
+- The kill feed no longer shows more than five lines when several knockouts happen at once. — [@DylanClayton](https://github.com/DylanClayton)
+- Blitzbreak's privacy policy is at playblitzbreak.com/privacy.html. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.7.1
 
 - Comic Court: courts, robots and weapons are drawn like a comic book, with flat colors and ink outlines. Your team's color looks the same on every court, and night courts glow instead of going dark. — [@DylanClayton](https://github.com/DylanClayton)
