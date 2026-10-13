@@ -3,6 +3,11 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.8.4
+
+- From Google Play, the "new version is out" notice on the main menu has an Update button that opens Blitzbreak in the Play Store. — [@DylanClayton](https://github.com/DylanClayton)
+- That notice no longer runs under the main menu's buttons on phones. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.8.3
 
 - A new app icon: the robot with the bomb, on every platform. On Android it fits the phone's icon shape, and themed icons (Android 13 and later) show the robot instead of Godot's logo. — [@DylanClayton](https://github.com/DylanClayton)

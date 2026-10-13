@@ -1,14 +1,16 @@
 {
   "stable": {
-    "version": "0.8.3",
+    "version": "0.8.4",
     "notes": [
-      "A new app icon: the robot with the bomb, on every platform. On Android it fits the phone's icon shape, and themed icons (Android 13 and later) show the robot instead of Godot's logo."
+      "From Google Play, the \"new version is out\" notice on the main menu has an Update button that opens Blitzbreak in the Play Store.",
+      "That notice no longer runs under the main menu's buttons on phones."
     ]
   },
   "beta": {
-    "version": "0.8.3",
+    "version": "0.8.4",
     "notes": [
-      "A new app icon: the robot with the bomb, on every platform. On Android it fits the phone's icon shape, and themed icons (Android 13 and later) show the robot instead of Godot's logo."
+      "From Google Play, the \"new version is out\" notice on the main menu has an Update button that opens Blitzbreak in the Play Store.",
+      "That notice no longer runs under the main menu's buttons on phones."
     ]
   }
 }
