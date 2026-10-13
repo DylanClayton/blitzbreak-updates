@@ -3,6 +3,16 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.8.5
+
+- Parties ready up: each member presses Ready on the Play page, and the leader can search once everyone's ready. — [@DylanClayton](https://github.com/DylanClayton)
+- At the end of a match the party's leader decides for everyone: Play Again keeps the whole party playing, Main Menu brings everyone back. Members see who they're following, and can leave the party to choose for themselves. The leader also sees when someone in the party is waiting in the menu. — [@DylanClayton](https://github.com/DylanClayton)
+- If you join a party while it's playing, Join Sam's game puts you in the same game, on its team, when there's a seat. — [@DylanClayton](https://github.com/DylanClayton)
+- Parties survive the online service restarting: the game brings the party back together under the same code. Party codes no longer change a moment after a party is made. — [@DylanClayton](https://github.com/DylanClayton)
+- Join Party has a Paste button, for phones where the paste menu doesn't show. — [@DylanClayton](https://github.com/DylanClayton)
+- While a party searches, everyone in it counts as searching. — [@DylanClayton](https://github.com/DylanClayton)
+- When the game can't reach the Blitzbreak servers, it says what failed, to pass on if you report it. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.8.4
 
 - From Google Play, the "new version is out" notice on the main menu has an Update button that opens Blitzbreak in the Play Store. — [@DylanClayton](https://github.com/DylanClayton)
