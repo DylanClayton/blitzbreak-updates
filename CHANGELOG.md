@@ -3,6 +3,11 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.8.2
+
+- Parties: on the Play page, Create Party gives you a code to share, and friends type it into Join Party (up to four of you, on any platform). The leader presses Casual and the whole party finds a game together, on one team: a running game with room for all of you, else other players, else bots after a minute. Play Again keeps the party together, and the party lasts between matches. — [@DylanClayton](https://github.com/DylanClayton)
+- Competitive is gone from the Play page for now: it comes back once there are enough players to fill its games. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.8.1
 
 - The arrows on the menus' pickers, the Back button, the touch controls' menu button and the lobby's host and ready marks now show on iPhone and iPad too. They were missing there in every version so far. — [@DylanClayton](https://github.com/DylanClayton)
