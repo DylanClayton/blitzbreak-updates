@@ -6,6 +6,11 @@
 <title>Blitzbreak · What's new</title>
 <meta name="description" content="What changed in each Blitzbreak release.">
 <link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<meta property="og:title" content="Blitzbreak · What's new">
+<meta property="og:description" content="What changed in each Blitzbreak release.">
+<meta property="og:image" content="https://playblitzbreak.com/social.png">
+<meta name="twitter:card" content="summary_large_image">
 <style>
   /* The game's menu colors (scripts/ui/ui_theme.gd). */
   :root {
@@ -24,6 +29,7 @@
     font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   }
   main { max-width: 760px; margin: 0 auto; padding: 48px 16px 80px; }
+  .banner { display: block; width: 100%; height: auto; aspect-ratio: 1520 / 710; border-radius: 12px; border: 1px solid var(--line); margin-bottom: 24px; }
   header { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
   header img { width: 56px; height: 56px; border-radius: 12px; }
   h1 { margin: 0; font-size: clamp(24px, 6vw, 34px); letter-spacing: 0.5px; }
@@ -55,9 +61,11 @@
 </head>
 <body>
 <main>
+  <img class="banner" src="banner.png" width="1520" height="710"
+    alt="Blitzbreak: a blue robot runs the bomb past red robots swinging a hammer and a sword">
   <header>
     <img src="icon.png" alt="">
-    <h1>BLITZ<span>BREAK</span> · What's new</h1>
+    <h1>What's <span>new</span></h1>
   </header>
   <p class="intro" id="intro"></p>
   <div class="latest" id="latest"></div>
