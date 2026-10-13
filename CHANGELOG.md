@@ -3,6 +3,17 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.8.1
+
+- The arrows on the menus' pickers, the Back button, the touch controls' menu button and the lobby's host and ready marks now show on iPhone and iPad too. They were missing there in every version so far. — [@DylanClayton](https://github.com/DylanClayton)
+
+## 0.8.0
+
+- Play Again: after a casual online match, press Play Again on the final scoreboard to go straight into another match on a new court with everyone else who pressed it. Nobody has to search again, and the bots fill in the empty seats as usual. — [@DylanClayton](https://github.com/DylanClayton)
+- Name tags and the BOMB marker are in the comic lettering and stay the same size at any distance, so they're readable across the court and no longer cover your screen up close. A robot right in front of you hides its name. — [@DylanClayton](https://github.com/DylanClayton)
+- Online matches are encrypted, and the game checks it's talking to the real match server. — [@DylanClayton](https://github.com/DylanClayton)
+- Deleting your online account (Settings > Delete online account) also removes it from past match records. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.7.2
 
 - A new Blitzbreak logo on the title screen. — [@DylanClayton](https://github.com/DylanClayton)
