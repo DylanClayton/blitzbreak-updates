@@ -3,6 +3,10 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.8.3
+
+- A new app icon: the robot with the bomb, on every platform. On Android it fits the phone's icon shape, and themed icons (Android 13 and later) show the robot instead of Godot's logo. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.8.2
 
 - Parties: on the Play page, Create Party gives you a code to share, and friends type it into Join Party (up to four of you, on any platform). The leader presses Casual and the whole party finds a game together, on one team: a running game with room for all of you, else other players, else bots after a minute. Play Again keeps the party together, and the party lasts between matches. — [@DylanClayton](https://github.com/DylanClayton)

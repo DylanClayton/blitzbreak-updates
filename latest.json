@@ -1,16 +1,14 @@
 {
   "stable": {
-    "version": "0.8.2",
+    "version": "0.8.3",
     "notes": [
-      "Parties: on the Play page, Create Party gives you a code to share, and friends type it into Join Party (up to four of you, on any platform). The leader presses Casual and the whole party finds a game together, on one team: a running game with room for all of you, else other players, else bots after a minute. Play Again keeps the party together, and the party lasts between matches.",
-      "Competitive is gone from the Play page for now: it comes back once there are enough players to fill its games."
+      "A new app icon: the robot with the bomb, on every platform. On Android it fits the phone's icon shape, and themed icons (Android 13 and later) show the robot instead of Godot's logo."
     ]
   },
   "beta": {
-    "version": "0.8.2",
+    "version": "0.8.3",
     "notes": [
-      "Parties: on the Play page, Create Party gives you a code to share, and friends type it into Join Party (up to four of you, on any platform). The leader presses Casual and the whole party finds a game together, on one team: a running game with room for all of you, else other players, else bots after a minute. Play Again keeps the party together, and the party lasts between matches.",
-      "Competitive is gone from the Play page for now: it comes back once there are enough players to fill its games."
+      "A new app icon: the robot with the bomb, on every platform. On Android it fits the phone's icon shape, and themed icons (Android 13 and later) show the robot instead of Godot's logo."
     ]
   }
 }
