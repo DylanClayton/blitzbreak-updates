@@ -3,6 +3,11 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.8.6
+
+- Casual search waits 30 seconds for other players before starting a game with bots, down from a minute. — [@DylanClayton](https://github.com/DylanClayton)
+- Phones draw sharper shadows: no more jagged, crawling edges along the walls. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.8.5
 
 - Parties ready up: each member presses Ready on the Play page, and the leader can search once everyone's ready. — [@DylanClayton](https://github.com/DylanClayton)
