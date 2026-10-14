@@ -3,6 +3,14 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.8.7
+
+- On phones and tablets, menus no longer outline a button as if it were already chosen when a screen opens. Keyboards and controllers still get the outline. — [@DylanClayton](https://github.com/DylanClayton)
+- "▼ MORE" at the bottom of a long list scrolls it when tapped, and now also shows on the Play and Settings pages. — [@DylanClayton](https://github.com/DylanClayton)
+- Settings that are on turn green, so orange only marks the main thing to press. — [@DylanClayton](https://github.com/DylanClayton)
+- iPhone and iPad open on the Blitzbreak logo instead of Godot's. — [@DylanClayton](https://github.com/DylanClayton)
+- Mac: hosting a game explains why it asks to use your local network. Testers with a Mac can also install Blitzbreak from TestFlight. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.8.6
 
 - Casual search waits 30 seconds for other players before starting a game with bots, down from a minute. — [@DylanClayton](https://github.com/DylanClayton)

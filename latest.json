@@ -1,16 +1,22 @@
 {
   "stable": {
-    "version": "0.8.6",
+    "version": "0.8.7",
     "notes": [
-      "Casual search waits 30 seconds for other players before starting a game with bots, down from a minute.",
-      "Phones draw sharper shadows: no more jagged, crawling edges along the walls."
+      "On phones and tablets, menus no longer outline a button as if it were already chosen when a screen opens. Keyboards and controllers still get the outline.",
+      "\"\u25bc MORE\" at the bottom of a long list scrolls it when tapped, and now also shows on the Play and Settings pages.",
+      "Settings that are on turn green, so orange only marks the main thing to press.",
+      "iPhone and iPad open on the Blitzbreak logo instead of Godot's.",
+      "Mac: hosting a game explains why it asks to use your local network. Testers with a Mac can also install Blitzbreak from TestFlight."
     ]
   },
   "beta": {
-    "version": "0.8.6",
+    "version": "0.8.7",
     "notes": [
-      "Casual search waits 30 seconds for other players before starting a game with bots, down from a minute.",
-      "Phones draw sharper shadows: no more jagged, crawling edges along the walls."
+      "On phones and tablets, menus no longer outline a button as if it were already chosen when a screen opens. Keyboards and controllers still get the outline.",
+      "\"\u25bc MORE\" at the bottom of a long list scrolls it when tapped, and now also shows on the Play and Settings pages.",
+      "Settings that are on turn green, so orange only marks the main thing to press.",
+      "iPhone and iPad open on the Blitzbreak logo instead of Godot's.",
+      "Mac: hosting a game explains why it asks to use your local network. Testers with a Mac can also install Blitzbreak from TestFlight."
     ]
   }
 }
