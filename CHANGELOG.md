@@ -3,6 +3,13 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.8.8
+
+- Friends: everyone has a friend code to share. Add friends by theirs, see who's on the menu, in a party or in a match, and invite them to your party with one tap; they get a pop-up saying who it's from, and can join for five minutes. — [@DylanClayton](https://github.com/DylanClayton)
+- The main menu has a card beside its buttons with tabs for your party, your friends and friend requests. The party moved there from the Play page. — [@DylanClayton](https://github.com/DylanClayton)
+- Your name comes with you: on iPhone and iPad it's your Game Center name, and on Android, signing in with Google Play Games gives you your gamer name and keeps your online account when you switch phones. Customize shows where it comes from. — [@DylanClayton](https://github.com/DylanClayton)
+- Knocked-out robots no longer get in anyone's way: a sword lunge that finishes someone carries on instead of stopping dead against them, and they disappear after three seconds. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.8.7
 
 - On phones and tablets, menus no longer outline a button as if it were already chosen when a screen opens. Keyboards and controllers still get the outline. — [@DylanClayton](https://github.com/DylanClayton)

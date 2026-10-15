@@ -1,22 +1,20 @@
 {
   "stable": {
-    "version": "0.8.7",
+    "version": "0.8.8",
     "notes": [
-      "On phones and tablets, menus no longer outline a button as if it were already chosen when a screen opens. Keyboards and controllers still get the outline.",
-      "\"\u25bc MORE\" at the bottom of a long list scrolls it when tapped, and now also shows on the Play and Settings pages.",
-      "Settings that are on turn green, so orange only marks the main thing to press.",
-      "iPhone and iPad open on the Blitzbreak logo instead of Godot's.",
-      "Mac: hosting a game explains why it asks to use your local network. Testers with a Mac can also install Blitzbreak from TestFlight."
+      "Friends: everyone has a friend code to share. Add friends by theirs, see who's on the menu, in a party or in a match, and invite them to your party with one tap; they get a pop-up saying who it's from, and can join for five minutes.",
+      "The main menu has a card beside its buttons with tabs for your party, your friends and friend requests. The party moved there from the Play page.",
+      "Your name comes with you: on iPhone and iPad it's your Game Center name, and on Android, signing in with Google Play Games gives you your gamer name and keeps your online account when you switch phones. Customize shows where it comes from.",
+      "Knocked-out robots no longer get in anyone's way: a sword lunge that finishes someone carries on instead of stopping dead against them, and they disappear after three seconds."
     ]
   },
   "beta": {
-    "version": "0.8.7",
+    "version": "0.8.8",
     "notes": [
-      "On phones and tablets, menus no longer outline a button as if it were already chosen when a screen opens. Keyboards and controllers still get the outline.",
-      "\"\u25bc MORE\" at the bottom of a long list scrolls it when tapped, and now also shows on the Play and Settings pages.",
-      "Settings that are on turn green, so orange only marks the main thing to press.",
-      "iPhone and iPad open on the Blitzbreak logo instead of Godot's.",
-      "Mac: hosting a game explains why it asks to use your local network. Testers with a Mac can also install Blitzbreak from TestFlight."
+      "Friends: everyone has a friend code to share. Add friends by theirs, see who's on the menu, in a party or in a match, and invite them to your party with one tap; they get a pop-up saying who it's from, and can join for five minutes.",
+      "The main menu has a card beside its buttons with tabs for your party, your friends and friend requests. The party moved there from the Play page.",
+      "Your name comes with you: on iPhone and iPad it's your Game Center name, and on Android, signing in with Google Play Games gives you your gamer name and keeps your online account when you switch phones. Customize shows where it comes from.",
+      "Knocked-out robots no longer get in anyone's way: a sword lunge that finishes someone carries on instead of stopping dead against them, and they disappear after three seconds."
     ]
   }
 }
