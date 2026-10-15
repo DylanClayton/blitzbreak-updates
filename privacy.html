@@ -54,9 +54,10 @@
     <a href="./"><img src="icon.png" alt="Blitzbreak"></a>
     <h1>BLITZ<span>BREAK</span> · Privacy</h1>
   </header>
-  <p class="intro">Last updated October 13, 2026. This covers the Blitzbreak game on every platform, its
+  <p class="intro">Last updated October 15, 2026. This covers the Blitzbreak game on every platform, its
     online services and this website. In short: you can play offline without sending us anything;
-    playing online creates an anonymous account with the name you choose; we don't run ads, sell
+    playing online creates an account with the name you choose (or your Game Center or Google Play
+    Games name); we don't run ads, sell
     data, or track you across other apps and sites.</p>
 
   <section id="who">
@@ -85,9 +86,15 @@
       <li><b>Game Center (iPhone and iPad):</b> if you're signed in to Game Center, your Game
         Center player ID for Blitzbreak, so your account follows you to a new device. Apple
         verifies it; we never see your Apple ID or email.</li>
-      <li><b>Your display name:</b> the name you pick in Customize. Other players see it in the
-        lobby, on the scoreboard and in the kill feed, so don't use your real name if you'd
-        rather not.</li>
+      <li><b>Google Play Games (Android):</b> if you're signed in to Play Games, your Play Games
+        player ID for Blitzbreak, for the same reason (from version 0.8.8). Google verifies it;
+        we never see your Google account or email.</li>
+      <li><b>Your display name:</b> your Game Center or Play Games name when you're signed in to
+        one (from version 0.8.8), otherwise the name you pick in Customize. Other players see it
+        in the lobby, on the scoreboard, in the kill feed and in friends lists, so don't use your
+        real name if you'd rather not.</li>
+      <li><b>Your friend code and friends:</b> a code made up for your account, and the friends
+        and friend requests you've made with it (from version 0.8.8).</li>
       <li><b>Your stats:</b> games played, wins, kills, deaths and goals.</li>
       <li><b>Match records:</b> for each online match, its result and who played in it (by account
         ID, not name), with each player's team, kills, deaths and goals.</li>
@@ -109,6 +116,11 @@
       party's members see each other's display names, whether each is ready, and which game each is
       in (so they can join it), and play together. Our server keeps the party's code and which version it's playing, not who's in it;
       who's in a party is only held in memory, and the party ends when everyone leaves.</p>
+    <p>Friends (from version 0.8.8) add each other with their friend codes: a request only becomes
+      a friendship when the other player accepts it, and either of you can remove it, or block
+      someone, at any time. While the game is open, your friends see whether you're on the menu,
+      in a party or in a match, and can invite you to their party; an invite shows their display
+      name. Our server passes these along as they happen and doesn't keep them.</p>
     <p>When someone hosts a private game on their own computer, the players who join connect
       straight to that computer, so the host's computer sees their IP addresses. If the host's
       router can't share its address automatically, the game asks
@@ -143,6 +155,9 @@
           the match's results</td></tr>
         <tr><td>Apple</td><td>Game Center sign-in on iPhone and iPad</td><td>Handled under
           <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a></td></tr>
+        <tr><td>Google</td><td>Google Play Games sign-in on Android</td><td>Handled under
+          <a href="https://policies.google.com/privacy">Google's privacy policy</a>; our server
+          asks Google to confirm your Play Games sign-in and gets your Play Games player ID</td></tr>
         <tr><td>GitHub</td><td>Hosts this website and the "new version" check</td><td>Your IP
           address, as with any website</td></tr>
         <tr><td>ipify</td><td>Finds a host's public IP address for private games</td><td>The
@@ -158,7 +173,8 @@
   <section id="keep">
     <h2>How long we keep it</h2>
     <ul>
-      <li>Your account and stats: until you delete them.</li>
+      <li>Your account, stats and friends: until you delete them (or, for a friend, until either
+        of you removes the other).</li>
       <li>IP addresses: up to an hour, in memory.</li>
       <li>The details needed to rejoin a match you left: until the match ends.</li>
       <li>Server logs: kept for a limited time, then overwritten. They can include display names,
@@ -172,7 +188,7 @@
   <section id="delete">
     <h2>Deleting your data</h2>
     <p>In the game, open <b>Settings &gt; Delete online account</b>. That deletes your account,
-      name, Game Center link and stats from our server straight away, removes your account ID
+      name, Game Center or Play Games link, friends and stats from our server straight away, removes your account ID
       from past match records, and clears the online details saved on your device. Copies in our backups are gone within 14 days.</p>
     <p>Lost access to your device? Email us with your display name and roughly when you last
       played, and we'll find and delete the account.</p>
