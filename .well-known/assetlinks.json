@@ -1,0 +1,11 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.dylanclayton.blitzbreak",
+    "sha256_cert_fingerprints": [
+      "2F:A9:22:2D:28:3A:E4:AC:8C:1E:94:56:F4:78:EF:13:50:CD:F6:34:D1:74:01:D2:1A:53:0B:D8:BC:8F:73:36",
+      "FD:FB:53:39:74:69:23:2D:F5:14:C2:CE:87:23:96:95:E6:4C:04:AE:B9:CF:D8:FD:94:56:EC:12:B5:14:72:BC"
+    ]
+  }
+}]
