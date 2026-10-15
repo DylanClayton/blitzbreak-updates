@@ -1,8 +1,0 @@
-{
-  "applinks": {
-    "details": [{
-      "appIDs": ["VX7R5L583W.com.dylanclayton.blitzbreak"],
-      "components": [{"/": "/join/*", "comment": "party invites"}]
-    }]
-  }
-}
