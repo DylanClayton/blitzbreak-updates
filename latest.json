@@ -1,20 +1,20 @@
 {
   "stable": {
-    "version": "0.8.8",
+    "version": "0.8.9",
     "notes": [
-      "Friends: everyone has a friend code to share. Add friends by theirs, see who's on the menu, in a party or in a match, and invite them to your party with one tap; they get a pop-up saying who it's from, and can join for five minutes.",
-      "The main menu has a card beside its buttons with tabs for your party, your friends and friend requests. The party moved there from the Play page.",
-      "Your name comes with you: on iPhone and iPad it's your Game Center name, and on Android, signing in with Google Play Games gives you your gamer name and keeps your online account when you switch phones. Customize shows where it comes from.",
-      "Knocked-out robots no longer get in anyone's way: a sword lunge that finishes someone carries on instead of stopping dead against them, and they disappear after three seconds."
+      "No more freeze the first time a hammer slam, bomb blast or other effect shows up: they're readied when the game starts. Most noticeable on phones and right after an update.",
+      "Controllers work in the menus: A presses the highlighted button (including Play again and Menu after a match) and B goes back.",
+      "In a party, you can't un-ready once your leader is searching for a game.",
+      "On the Mac App Store and TestFlight version, your name is your Game Center name, as on iPhone and iPad."
     ]
   },
   "beta": {
-    "version": "0.8.8",
+    "version": "0.8.9",
     "notes": [
-      "Friends: everyone has a friend code to share. Add friends by theirs, see who's on the menu, in a party or in a match, and invite them to your party with one tap; they get a pop-up saying who it's from, and can join for five minutes.",
-      "The main menu has a card beside its buttons with tabs for your party, your friends and friend requests. The party moved there from the Play page.",
-      "Your name comes with you: on iPhone and iPad it's your Game Center name, and on Android, signing in with Google Play Games gives you your gamer name and keeps your online account when you switch phones. Customize shows where it comes from.",
-      "Knocked-out robots no longer get in anyone's way: a sword lunge that finishes someone carries on instead of stopping dead against them, and they disappear after three seconds."
+      "No more freeze the first time a hammer slam, bomb blast or other effect shows up: they're readied when the game starts. Most noticeable on phones and right after an update.",
+      "Controllers work in the menus: A presses the highlighted button (including Play again and Menu after a match) and B goes back.",
+      "In a party, you can't un-ready once your leader is searching for a game.",
+      "On the Mac App Store and TestFlight version, your name is your Game Center name, as on iPhone and iPad."
     ]
   }
 }

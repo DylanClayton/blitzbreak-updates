@@ -3,6 +3,13 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.8.9
+
+- No more freeze the first time a hammer slam, bomb blast or other effect shows up: they're readied when the game starts. Most noticeable on phones and right after an update. — [@DylanClayton](https://github.com/DylanClayton)
+- Controllers work in the menus: A presses the highlighted button (including Play again and Menu after a match) and B goes back. — [@DylanClayton](https://github.com/DylanClayton)
+- In a party, you can't un-ready once your leader is searching for a game. — [@DylanClayton](https://github.com/DylanClayton)
+- On the Mac App Store and TestFlight version, your name is your Game Center name, as on iPhone and iPad. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.8.8
 
 - Friends: everyone has a friend code to share. Add friends by theirs, see who's on the menu, in a party or in a match, and invite them to your party with one tap; they get a pop-up saying who it's from, and can join for five minutes. — [@DylanClayton](https://github.com/DylanClayton)
