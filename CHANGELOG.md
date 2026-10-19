@@ -3,6 +3,13 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.9.0
+
+- Online play (casual matches, parties and friends) now needs you signed in to the store you got Blitzbreak from: Steam, Epic Games, Game Center or Google Play Games. Matches against bots and private games you host or join still work without one, and the menu says what to do when you're not signed in. — [@DylanClayton](https://github.com/DylanClayton)
+- Everyone's store icon shows by their name: on name tags, the scoreboard, the lobby, your party and your friends list. — [@DylanClayton](https://github.com/DylanClayton)
+- Getting ready for Steam and the Epic Games Store: those versions sign you in with your Steam or Epic account, and your name there is your name in the game. — [@DylanClayton](https://github.com/DylanClayton)
+- A party searching for a game keeps searching when someone joins or leaves it. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.8.9
 
 - No more freeze the first time a hammer slam, bomb blast or other effect shows up: they're readied when the game starts. Most noticeable on phones and right after an update. — [@DylanClayton](https://github.com/DylanClayton)
