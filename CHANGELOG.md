@@ -3,6 +3,12 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.9.1
+
+- Eight choices for every part of your look: new bodies (Reactor, Sculpted, Tin Can, Jetpack, Circuit and more), helmets (Centurion, Halo, Top Hat...), a Cyclops eye, five new hammers and swords, and new hammer slams and bomb blasts, from Crystal Spikes to a Black Hole. "Big" and "Huge" bodies are now Reactor and Sculpted. Players still on 0.9.0 see the default in place of the new ones. — [@DylanClayton](https://github.com/DylanClayton)
+- The Play menu puts online first: Casual is the big button, and vs Bots moves to the bottom under Offline. In a party, bot matches and private games wait until you leave it. — [@DylanClayton](https://github.com/DylanClayton)
+- The Mac App Store and TestFlight version now signs in to Game Center, so online play works on it. When you're not signed in, the menu says where to do it. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.9.0
 
 - Online play (casual matches, parties and friends) now needs you signed in to the store you got Blitzbreak from: Steam, Epic Games, Game Center or Google Play Games. Matches against bots and private games you host or join still work without one, and the menu says what to do when you're not signed in. — [@DylanClayton](https://github.com/DylanClayton)

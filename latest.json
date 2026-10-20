@@ -1,20 +1,18 @@
 {
   "stable": {
-    "version": "0.9.0",
+    "version": "0.9.1",
     "notes": [
-      "Online play (casual matches, parties and friends) now needs you signed in to the store you got Blitzbreak from: Steam, Epic Games, Game Center or Google Play Games. Matches against bots and private games you host or join still work without one, and the menu says what to do when you're not signed in.",
-      "Everyone's store icon shows by their name: on name tags, the scoreboard, the lobby, your party and your friends list.",
-      "Getting ready for Steam and the Epic Games Store: those versions sign you in with your Steam or Epic account, and your name there is your name in the game.",
-      "A party searching for a game keeps searching when someone joins or leaves it."
+      "Eight choices for every part of your look: new bodies (Reactor, Sculpted, Tin Can, Jetpack, Circuit and more), helmets (Centurion, Halo, Top Hat...), a Cyclops eye, five new hammers and swords, and new hammer slams and bomb blasts, from Crystal Spikes to a Black Hole. \"Big\" and \"Huge\" bodies are now Reactor and Sculpted. Players still on 0.9.0 see the default in place of the new ones.",
+      "The Play menu puts online first: Casual is the big button, and vs Bots moves to the bottom under Offline. In a party, bot matches and private games wait until you leave it.",
+      "The Mac App Store and TestFlight version now signs in to Game Center, so online play works on it. When you're not signed in, the menu says where to do it."
     ]
   },
   "beta": {
-    "version": "0.9.0",
+    "version": "0.9.1",
     "notes": [
-      "Online play (casual matches, parties and friends) now needs you signed in to the store you got Blitzbreak from: Steam, Epic Games, Game Center or Google Play Games. Matches against bots and private games you host or join still work without one, and the menu says what to do when you're not signed in.",
-      "Everyone's store icon shows by their name: on name tags, the scoreboard, the lobby, your party and your friends list.",
-      "Getting ready for Steam and the Epic Games Store: those versions sign you in with your Steam or Epic account, and your name there is your name in the game.",
-      "A party searching for a game keeps searching when someone joins or leaves it."
+      "Eight choices for every part of your look: new bodies (Reactor, Sculpted, Tin Can, Jetpack, Circuit and more), helmets (Centurion, Halo, Top Hat...), a Cyclops eye, five new hammers and swords, and new hammer slams and bomb blasts, from Crystal Spikes to a Black Hole. \"Big\" and \"Huge\" bodies are now Reactor and Sculpted. Players still on 0.9.0 see the default in place of the new ones.",
+      "The Play menu puts online first: Casual is the big button, and vs Bots moves to the bottom under Offline. In a party, bot matches and private games wait until you leave it.",
+      "The Mac App Store and TestFlight version now signs in to Game Center, so online play works on it. When you're not signed in, the menu says where to do it."
     ]
   }
 }
