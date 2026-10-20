@@ -3,6 +3,10 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.9.2
+
+- If someone leaves your party while you're searching for a game, the search stops and says who left, instead of carrying on without them. Search again when you're ready. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.9.1
 
 - Eight choices for every part of your look: new bodies (Reactor, Sculpted, Tin Can, Jetpack, Circuit and more), helmets (Centurion, Halo, Top Hat...), a Cyclops eye, five new hammers and swords, and new hammer slams and bomb blasts, from Crystal Spikes to a Black Hole. "Big" and "Huge" bodies are now Reactor and Sculpted. Players still on 0.9.0 see the default in place of the new ones. — [@DylanClayton](https://github.com/DylanClayton)
