@@ -1,14 +1,14 @@
 {
   "stable": {
-    "version": "0.9.2",
+    "version": "0.9.3",
     "notes": [
-      "If someone leaves your party while you're searching for a game, the search stops and says who left, instead of carrying on without them. Search again when you're ready."
+      "Fixed a crash when leaving the main menu (for example, starting a game vs Bots) while a Black Hole, Lightning Storm or Ripples effect was playing in the background."
     ]
   },
   "beta": {
-    "version": "0.9.2",
+    "version": "0.9.3",
     "notes": [
-      "If someone leaves your party while you're searching for a game, the search stops and says who left, instead of carrying on without them. Search again when you're ready."
+      "Fixed a crash when leaving the main menu (for example, starting a game vs Bots) while a Black Hole, Lightning Storm or Ripples effect was playing in the background."
     ]
   }
 }

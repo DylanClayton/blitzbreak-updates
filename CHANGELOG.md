@@ -3,6 +3,10 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.9.3
+
+- Fixed a crash when leaving the main menu (for example, starting a game vs Bots) while a Black Hole, Lightning Storm or Ripples effect was playing in the background. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.9.2
 
 - If someone leaves your party while you're searching for a game, the search stops and says who left, instead of carrying on without them. Search again when you're ready. — [@DylanClayton](https://github.com/DylanClayton)
