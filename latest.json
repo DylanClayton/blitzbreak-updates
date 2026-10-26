@@ -1,14 +1,16 @@
 {
   "stable": {
-    "version": "0.9.3",
+    "version": "0.9.4",
     "notes": [
-      "Fixed a crash when leaving the main menu (for example, starting a game vs Bots) while a Black Hole, Lightning Storm or Ripples effect was playing in the background."
+      "A beam of light rises from the bomb in the color of the team carrying it (orange while it's loose), so even in a pile of players you can tell who has it. Thanks to play-tester Kirsten for the idea!",
+      "If your party's leader leaves while searching for a game, everyone else is told the search stopped, and who's leading now."
     ]
   },
   "beta": {
-    "version": "0.9.3",
+    "version": "0.9.4",
     "notes": [
-      "Fixed a crash when leaving the main menu (for example, starting a game vs Bots) while a Black Hole, Lightning Storm or Ripples effect was playing in the background."
+      "A beam of light rises from the bomb in the color of the team carrying it (orange while it's loose), so even in a pile of players you can tell who has it. Thanks to play-tester Kirsten for the idea!",
+      "If your party's leader leaves while searching for a game, everyone else is told the search stopped, and who's leading now."
     ]
   }
 }

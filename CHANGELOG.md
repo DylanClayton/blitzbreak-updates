@@ -3,6 +3,11 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.9.4
+
+- A beam of light rises from the bomb in the color of the team carrying it (orange while it's loose), so even in a pile of players you can tell who has it. Thanks to play-tester Kirsten for the idea! — [@DylanClayton](https://github.com/DylanClayton)
+- If your party's leader leaves while searching for a game, everyone else is told the search stopped, and who's leading now. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.9.3
 
 - Fixed a crash when leaving the main menu (for example, starting a game vs Bots) while a Black Hole, Lightning Storm or Ripples effect was playing in the background. — [@DylanClayton](https://github.com/DylanClayton)
