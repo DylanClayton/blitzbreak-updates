@@ -3,6 +3,13 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.10.0
+
+- Game modes: Low Gravity, Speed Demon, Bouncy Bomb, Long Lunge, Big Hammers, Glass Cannon and Power Play. Pick one in the lobby for games against bots and private games. In casual online play, about one game in eight is a lucky game with a random mode; the round start says which. — [@DylanClayton](https://github.com/DylanClayton)
+- Power-ups: spots on every court hold a Speed Boost, Overshield, Mega Hammer or Sword Rush when the mode turns them on (Power Play does). Grab one for 8 seconds of an edge; a ring at your feet shows everyone you've got it. The course builder can place power-up spots too. — [@DylanClayton](https://github.com/DylanClayton)
+- Make your own mode: sliders for speed, gravity, jumping, shields, hammers, swords, the bomb and power-ups, saved on your device and playable against bots or in private games you host. — [@DylanClayton](https://github.com/DylanClayton)
+- Fairer casual games: a hidden skill rating, built from your online results, sets the bots' difficulty to suit the players, evens out the teams the queue makes, and points you to games near your level. Nobody sees it, and it's deleted with your account. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.9.4
 
 - A beam of light rises from the bomb in the color of the team carrying it (orange while it's loose), so even in a pile of players you can tell who has it. Thanks to play-tester Kirsten for the idea! — [@DylanClayton](https://github.com/DylanClayton)
