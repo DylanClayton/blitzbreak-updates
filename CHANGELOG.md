@@ -3,6 +3,24 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.10.4
+
+- iPhone, iPad and Mac App Store: the Supporter Pack now finds its App Store listing, so it can be bought (and restored). — [@DylanClayton](https://github.com/DylanClayton)
+
+## 0.10.3
+
+- iPhone, iPad and Mac App Store: the Supporter Pack can be bought in Customize, with a Restore Purchases button. It shows once the game launches (everyone playing before then is a Founder and already has every look). — [@DylanClayton](https://github.com/DylanClayton)
+
+## 0.10.2
+
+- Everything in 0.10.1 comes to the App Store versions: their build had stopped because a component moved to a new home. Nothing else changes. — [@DylanClayton](https://github.com/DylanClayton)
+
+## 0.10.1
+
+- Customize: two looks in every slot are free to everyone, and the rest come with the Supporter Pack. Locked looks are still there to try on; Customize says what unlocks them. — [@DylanClayton](https://github.com/DylanClayton)
+- Everyone who plays before Blitzbreak's launch is a Founder, and keeps every look for good, on every device you sign in on. Thank you for testing! — [@DylanClayton](https://github.com/DylanClayton)
+- The Supporter Pack: after launch, buy it in Customize to unlock every look and help keep the servers running. On Google Play first; it's tied to your online account, so it follows you. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.10.0
 
 - Game modes: Low Gravity, Speed Demon, Bouncy Bomb, Long Lunge, Big Hammers, Glass Cannon and Power Play. Pick one in the lobby for games against bots and private games. In casual online play, about one game in eight is a lucky game with a random mode; the round start says which. — [@DylanClayton](https://github.com/DylanClayton)
