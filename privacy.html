@@ -54,7 +54,7 @@
     <a href="./"><img src="icon.png" alt="Blitzbreak"></a>
     <h1>BLITZ<span>BREAK</span> · Privacy</h1>
   </header>
-  <p class="intro">Last updated October 31, 2026. This covers the Blitzbreak game on every platform, its
+  <p class="intro">Last updated November 1, 2026. This covers the Blitzbreak game on every platform, its
     online services and this website. In short: you can play offline without sending us anything;
     playing online creates an account tied to the store you play through (Steam, Epic Games, Game
     Center or Google Play Games), with your name there; an optional Supporter Pack can be bought
@@ -117,8 +117,8 @@
         unlock on any device.</li>
       <li><b>Purchases</b> (from version 0.10.1): when you buy the Supporter Pack, the store's
         order number, the product, when it was bought, and which account it belongs to. Our
-        server checks the purchase with the store using a code the store gives your device (the
-        purchase token); we keep a scrambled form of that code so one purchase can't be claimed
+        server checks the purchase using what the store gives your device (Google Play's purchase
+        token, or the App Store's transaction, signed by Apple); we keep a scrambled form of that code so one purchase can't be claimed
         by two accounts. The store takes the payment: we never see your card or payment details.</li>
       <li><b>Match records:</b> for each online match, its result and who played in it (by account
         ID, not name), with each player's team, kills, deaths and goals.</li>
@@ -178,8 +178,9 @@
         <tr><td>Edgegap</td><td>Runs the match servers, near the players</td><td>Players' IP
           addresses, to pick a location; account IDs, display names and teams for the match;
           the match's results</td></tr>
-        <tr><td>Apple</td><td>Game Center sign-in on iPhone, iPad and Mac (App Store version)</td><td>Handled under
-          <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a></td></tr>
+        <tr><td>Apple</td><td>Game Center sign-in, and App Store purchases, on iPhone, iPad and Mac (App Store version)</td><td>Handled under
+          <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>; our server
+          checks a purchase's transaction against Apple's certificates, without contacting Apple</td></tr>
         <tr><td>Google</td><td>Google Play Games sign-in, and Google Play purchases, on Android</td><td>Handled under
           <a href="https://policies.google.com/privacy">Google's privacy policy</a>; our server
           asks Google to confirm your Play Games sign-in and gets your Play Games player ID, and
