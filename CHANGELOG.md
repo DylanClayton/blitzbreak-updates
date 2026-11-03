@@ -3,6 +3,13 @@
 What changed in each release, for players. Versions are X.Y.Z: players can play together when X
 and Y match, and Z releases are fixes and polish that don't affect who you can play with.
 
+## 0.10.5
+
+- Customize has a Save button: try looks on, then save the ones you want. Leaving without saving puts back what you had. Looks you don't own yet show on your robot too, marked with a padlock, and each slot lists its two free looks first. The page also opens at the top again. — [@DylanClayton](https://github.com/DylanClayton)
+- Google Play: if a purchase went through but couldn't be confirmed yet, the button says "Unlock your purchase" and checks it again, instead of Google saying you already own it. — [@DylanClayton](https://github.com/DylanClayton)
+- Epic Games Store: the Supporter Pack is an add-on, bought on its store page. It unlocks the next time you start Blitzbreak from the Epic Games Launcher. — [@DylanClayton](https://github.com/DylanClayton)
+- The icon beside each player's name is now their store's own: Steam, Epic Games, Google Play Games, and Game Center on Apple devices. — [@DylanClayton](https://github.com/DylanClayton)
+
 ## 0.10.4
 
 - iPhone, iPad and Mac App Store: the Supporter Pack now finds its App Store listing, so it can be bought (and restored). — [@DylanClayton](https://github.com/DylanClayton)
