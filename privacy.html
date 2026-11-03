@@ -54,7 +54,7 @@
     <a href="./"><img src="icon.png" alt="Blitzbreak"></a>
     <h1>BLITZ<span>BREAK</span> · Privacy</h1>
   </header>
-  <p class="intro">Last updated November 1, 2026. This covers the Blitzbreak game on every platform, its
+  <p class="intro">Last updated November 3, 2026. This covers the Blitzbreak game on every platform, its
     online services and this website. In short: you can play offline without sending us anything;
     playing online creates an account tied to the store you play through (Steam, Epic Games, Game
     Center or Google Play Games), with your name there; an optional Supporter Pack can be bought
@@ -119,7 +119,9 @@
         order number, the product, when it was bought, and which account it belongs to. Our
         server checks the purchase using what the store gives your device (Google Play's purchase
         token, or the App Store's transaction, signed by Apple); we keep a scrambled form of that code so one purchase can't be claimed
-        by two accounts. The store takes the payment: we never see your card or payment details.</li>
+        by two accounts. On the Epic Games Store (from version 0.10.5) the pack is an add-on: when
+        you sign in, our server asks Epic whether your Epic account owns it. The store takes the
+        payment: we never see your card or payment details.</li>
       <li><b>Match records:</b> for each online match, its result and who played in it (by account
         ID, not name), with each player's team, kills, deaths and goals.</li>
     </ul>
@@ -189,10 +191,10 @@
           <a href="https://store.steampowered.com/privacy_agreement/">Valve's privacy policy</a>;
           our server asks Steam to confirm your sign-in and for your Steam ID and Steam
           name</td></tr>
-        <tr><td>Epic Games</td><td>Epic sign-in in the Epic Games Store version</td><td>Handled
+        <tr><td>Epic Games</td><td>Epic sign-in, and the Supporter Pack add-on, in the Epic Games Store version</td><td>Handled
           under <a href="https://www.epicgames.com/site/privacypolicy">Epic's privacy policy</a>;
           our server asks Epic to confirm your sign-in and gets your Epic account ID and display
-          name</td></tr>
+          name, and asks whether your account owns the Supporter Pack</td></tr>
         <tr><td>GitHub</td><td>Hosts this website and the "new version" check</td><td>Your IP
           address, as with any website</td></tr>
         <tr><td>ipify</td><td>Finds a host's public IP address for private games</td><td>The
